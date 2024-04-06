@@ -7,9 +7,9 @@ import io.cucumber.testng.CucumberOptions;
 (
 		features= {"src\\test\\resources\\Features"},
 		glue={"StepDefinations"},
-	    publish=true,
-		plugin= {"pretty","html:target/htmlreport.html"}
-		
+	   // publish=true,
+		plugin= {"pretty","html:target/htmlreport.html"},
+		dryRun=true
 		
 )
 
